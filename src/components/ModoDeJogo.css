@@ -1,0 +1,25 @@
+.selectMode{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+
+}
+.facil{
+    background-color: rgb(24, 252, 7);
+}
+.facil:hover{
+    background-color: rgb(19, 167, 9);
+}
+.medio{
+    background-color: orange;
+}
+
+.medio:hover{
+    background-color: rgb(219, 145, 8);
+}
+.dificil{
+    background-color: red;
+}
+.dificil:hover{
+    background-color: rgb(212, 1, 1);
+}

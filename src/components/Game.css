@@ -1,0 +1,94 @@
+.game h1{
+    font-size: 3em;
+    
+}
+.reset{
+    background-color: red;
+}
+.reset:hover{
+    background-color: rgb(201, 4, 4);
+}
+.poits{
+    font-size: large;
+    font-weight: bold;
+}
+.poits span{
+    color:  #FFA500;
+}
+
+.tip span{
+    color: #FFA500;
+}
+
+.wordContainer {
+    margin: 1.5em;
+    padding: 1.4em;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    display: flex;
+    background-color:  #00FF00;
+}
+.letter, .blankSquare{
+    font-size: 70px;
+    line-height: 1.5;
+    border: 3px solid rgb(0, 0, 0);
+    height: 100px;
+    width: 100px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0,0,0);
+    font-weight: bold;
+    
+}
+
+.letterContainer label{
+    margin-bottom: 1.2em;
+    font-weight: bold;
+}
+
+
+.letterContainer input{
+    height: 50px ;
+    width: 50px;
+    font-size: 2em;
+    text-align: center;
+    margin-left: .60em;
+    border-bottom: 3px solid black;
+    background-color: #F5F5F5;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    outline: none;
+    box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.2);
+}
+
+.wrongLettersContainer{
+    font-weight: bold;
+}
+.wrongLettersContainer span{
+    color: red;
+    font-size:x-large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Responsividade para dispositivos móveis e tablets */
+@media screen and (max-width: 768px) {
+    .game h1 {
+      font-size: 2em;
+    }
+  
+    .letter,
+    .blankSquare {
+      font-size: 50px;
+      height: 10vh;
+      width: 7vh;
+    }
+  
+    .letterContainer input {
+      height: 40px;
+      width: 40px;
+      font-size: 1.5em;
+    }
+  }
+  
