@@ -145,7 +145,7 @@ function App() {
       letters={letters}
       quessedLetteres={quessedLetteres}
       wrongLetters={wrongLetters}
-      guesses={quessesQtd}
+      guesses={guesses}
       />)}
 
       {gameStage === 'end' && <GameOver retry={retry}/>}
